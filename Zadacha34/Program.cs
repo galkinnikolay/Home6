@@ -6,9 +6,7 @@
 // [345, 897, 568, 234] -> 2
 
 
-Console.WriteLine("Введите размер массива: ");
-int arraySize = Convert.ToInt32(Console.ReadLine()); 
-int[] array = new int[arraySize]; 
+int[] array = new int[5]; 
 
 for (int i = 0; i < array.Length; i++)
 {
@@ -26,4 +24,5 @@ for (int i = 0; i < array.Length; i++)
     }
 }
 
+Console.WriteLine();
 Console.WriteLine($"Четных чисел: {even}");
